@@ -1,0 +1,7 @@
+2023-08-30 14:35:11.176	:Controller.Run starting...
+2023-08-30 14:35:12.693	:ProcessDailyFiles starting...
+2023-08-30 14:35:28.915	:Checking for files using serach pattern: CARLS132*
+2023-08-30 14:35:32.500	:1 file(s) found.
+2023-08-30 14:36:00.868	:An exception occurred in GetFile. Please see error log for details.
+2023-08-30 14:36:14.186	:Checking for files using serach pattern: CKEPR132
+2023-08-30 14:36:14.632	:1 file(s) found.

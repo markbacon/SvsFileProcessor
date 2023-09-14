@@ -1,0 +1,13 @@
+--------------------------------------------------------------------------------------------------------------
+  Exception Summary
+--------------------------------------------------------------------------------------------------------------
+Date/Time: 08/30/2023 14:36:01.257
+Error Message: C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\bin\Debug\Work\CARLS132.20230830
+Source: WinSCPnet
+
+Stack Trace:    at WinSCP.Session.DoGetFilesToDirectory(String remoteDirectory, String localDirectory, String filemask, Boolean remove, TransferOptions options, String additionalParams)
+   at WinSCP.Session.GetEntryToDirectory(String remoteFilePath, String localDirectory, Boolean remove, TransferOptions options, String additionalParams)
+   at WinSCP.Session.GetFileToDirectory(String remoteFilePath, String localDirectory, Boolean remove, TransferOptions options)
+   at SvsFileProcessor.CkeSftp.GetFile(String remoteDirectoryName, String fileName) in C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\CkeSftp.cs:line 55
+
+

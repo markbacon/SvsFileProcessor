@@ -1,0 +1,27 @@
+//--------------------------------------------------------------------------------------------------------------
+//-- Start Application. Date/Time: Thursday, September 7, 2023  11:44:53 AM
+//--------------------------------------------------------------------------------------------------------------
+2023-09-07 11:44:58.642	:Controller.Run starting...
+2023-09-07 11:45:02.880	:ProcessWeeklyFiles starting...
+2023-09-07 11:45:08.204	:ProcessWeeklyFiles starting...
+2023-09-07 11:45:45.099	:Checking for files using search pattern: CARLS_OLD_ENTITY_STL132EXT.csv
+2023-09-07 11:45:49.242	:0 file(s) found.
+2023-09-07 11:45:51.653	:ProcessWeeklyFiles has completed.  Elapsed time: 00:00:44.4795431
+2023-09-07 11:45:53.034	:Checking for files using search pattern: CKEGC_NEW_ENTITY_STL132EXT.csv
+2023-09-07 11:46:00.216	:0 file(s) found.
+2023-09-07 11:46:01.369	:ProcessWeeklyFiles has completed.  Elapsed time: 00:00:54.1944241
+2023-09-07 11:46:02.601	:Checking for files using search pattern: CKEGC_OLD_ENTITY_STL132EXT.csv
+2023-09-07 11:46:04.120	:0 file(s) found.
+2023-09-07 11:46:06.007	:ProcessWeeklyFiles has completed.  Elapsed time: 00:00:58.8330340
+2023-09-07 11:46:07.191	:Checking for files using search pattern: CKEPR_NEW_ENTITY_STL132EXT.csv
+2023-09-07 11:46:08.035	:0 file(s) found.
+2023-09-07 11:46:29.691	:ProcessWeeklyFiles has completed.  Elapsed time: 00:01:22.5262418
+2023-09-07 11:46:29.697	:Checking for files using search pattern: CKEPR_OLD_ENTITY_STL132EXT.csv
+2023-09-07 11:46:30.169	:0 file(s) found.
+2023-09-07 11:46:30.174	:ProcessWeeklyFiles has completed.  Elapsed time: 00:01:23.0086757
+2023-09-07 11:46:30.179	:Checking for files using search pattern: HARDE_NEW_ENTITY_STL132EXT.csv
+2023-09-07 11:46:30.633	:0 file(s) found.
+2023-09-07 11:46:30.643	:ProcessWeeklyFiles has completed.  Elapsed time: 00:01:23.4772524
+2023-09-07 11:46:30.649	:Checking for files using search pattern: HARDE_OLD_ENTITY_STL132EXT.csv
+2023-09-07 11:46:31.083	:0 file(s) found.
+2023-09-07 11:46:31.091	:ProcessWeeklyFiles has completed.  Elapsed time: 00:01:23.9253164

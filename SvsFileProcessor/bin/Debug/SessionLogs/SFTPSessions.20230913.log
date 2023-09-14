@@ -1,0 +1,344 @@
+. 2023-09-13 13:55:42.296 --------------------------------------------------------------------------
+. 2023-09-13 13:55:42.297 WinSCP Version 6.1.1 (Build 13736 2023-06-21) (OS 10.0.19044 – Windows 10 Enterprise)
+. 2023-09-13 13:55:42.297 Configuration: nul
+. 2023-09-13 13:55:42.297 Log level: Normal
+. 2023-09-13 13:55:42.297 Local account: CKRCORP\mbacon
+. 2023-09-13 13:55:42.297 Working directory: C:\Program Files (x86)\WinSCP
+. 2023-09-13 13:55:42.297 Process ID: 48708
+. 2023-09-13 13:55:42.345 Ancestor processes: SvsFileProcessor, devenv, explorer, ...
+. 2023-09-13 13:55:42.345 Command-line: "C:\Program Files (x86)\WinSCP\winscp.exe" /xmllog="C:\Users\mbacon\AppData\Local\Temp\wscp52BC.0190610D.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /stdout /stdin /dotnet=6.1.1  /ini=nul /log="C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\bin\Debug\SessionLogs\SFTPSessions.20230913.log"  /console /consoleinstance=_21180_34826618_837
+. 2023-09-13 13:55:42.345 Time zone: Current: GMT-5, Standard: GMT-6 (Central Standard Time), DST: GMT-5 (Central Daylight Time), DST Start: 3/12/2023, DST End: 11/5/2023
+. 2023-09-13 13:55:42.346 Login time: Wednesday, September 13, 2023 1:55:42 PM
+. 2023-09-13 13:55:42.346 --------------------------------------------------------------------------
+. 2023-09-13 13:55:42.346 Script: Retrospectively logging previous script records:
+> 2023-09-13 13:55:42.346 Script: option batch on
+< 2023-09-13 13:55:42.346 Script: batch           on        
+< 2023-09-13 13:55:42.346 Script: reconnecttime   120       
+> 2023-09-13 13:55:42.346 Script: option confirm off
+< 2023-09-13 13:55:42.346 Script: confirm         off       
+> 2023-09-13 13:55:42.346 Script: option reconnecttime 120
+< 2023-09-13 13:55:42.346 Script: reconnecttime   120       
+> 2023-09-13 13:55:42.346 Script: open sftp://CARLS:***@sftp.storedvalue.com:22 -hostkey="ssh-rsa 2048 e5:b7:c7:6c:75:cc:eb:75:ff:88:29:e7:d1:92:14:be" -timeout=15
+. 2023-09-13 13:55:42.346 --------------------------------------------------------------------------
+. 2023-09-13 13:55:42.346 Session name: CARLS@sftp.storedvalue.com (Ad-Hoc site)
+. 2023-09-13 13:55:42.346 Host name: sftp.storedvalue.com (Port: 22)
+. 2023-09-13 13:55:42.346 User name: CARLS (Password: Yes, Key file: No, Passphrase: No)
+. 2023-09-13 13:55:42.346 Tunnel: No
+. 2023-09-13 13:55:42.346 Transfer Protocol: SFTP
+. 2023-09-13 13:55:42.346 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2023-09-13 13:55:42.346 Disable Nagle: No
+. 2023-09-13 13:55:42.346 Proxy: None
+. 2023-09-13 13:55:42.346 Send buffer: 262144
+. 2023-09-13 13:55:42.346 Compression: No
+. 2023-09-13 13:55:42.346 Bypass authentication: No
+. 2023-09-13 13:55:42.346 Try agent: Yes; Agent forwarding: No; KI: Yes; GSSAPI: Yes
+. 2023-09-13 13:55:42.346 GSSAPI: KEX: No; Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2023-09-13 13:55:42.346 Ciphers: aes,chacha20,aesgcm,3des,WARN,des,blowfish,arcfour; Ssh2DES: No
+. 2023-09-13 13:55:42.346 KEX: ntru-curve25519,ecdh,dh-gex-sha1,dh-group18-sha512,dh-group17-sha512,dh-group16-sha512,dh-group15-sha512,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2023-09-13 13:55:42.346 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2023-09-13 13:55:42.346 Simple channel: Yes
+. 2023-09-13 13:55:42.346 Return code variable: Autodetect; Lookup user groups: Auto
+. 2023-09-13 13:55:42.346 Shell: default
+. 2023-09-13 13:55:42.346 EOL: LF, UTF: Auto
+. 2023-09-13 13:55:42.346 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2023-09-13 13:55:42.346 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2023-09-13 13:55:42.346 SFTP Bugs: Auto,Auto
+. 2023-09-13 13:55:42.346 SFTP Server: default
+. 2023-09-13 13:55:42.346 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2023-09-13 13:55:42.346 Cache directory changes: Yes, Permanent: Yes
+. 2023-09-13 13:55:42.346 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2023-09-13 13:55:42.346 DST mode: Unix
+. 2023-09-13 13:55:42.346 --------------------------------------------------------------------------
+< 2023-09-13 13:55:42.346 Script: Searching for host...
+. 2023-09-13 13:55:42.347 Looking up host "sftp.storedvalue.com" for SSH connection
+. 2023-09-13 13:55:42.354 Connecting to 65.82.130.38 port 22
+. 2023-09-13 13:55:42.455 Connected to 65.82.130.38
+< 2023-09-13 13:55:42.455 Script: Connecting to host...
+. 2023-09-13 13:55:42.455 We claim version: SSH-2.0-WinSCP_release_6.1.1
+. 2023-09-13 13:55:42.455 Connected to 65.82.130.38
+. 2023-09-13 13:55:42.556 Remote version: SSH-2.0-SVS_SFTP_SERVER
+. 2023-09-13 13:55:42.556 Using SSH protocol version 2
+. 2023-09-13 13:55:42.558 Have a known host key of type rsa2
+. 2023-09-13 13:55:42.562 Doing ECDH key exchange with curve nistp256, using hash SHA-256
+. 2023-09-13 13:55:42.808 Server also has ssh-dss host key, but we don't know it
+. 2023-09-13 13:55:42.808 Host key fingerprint is:
+. 2023-09-13 13:55:42.808 ssh-rsa 2048 SHA256:/iAnSXBQ6BbhPgr5msERriG+R06iDUbxw+82K1ioWQ4
+< 2023-09-13 13:55:42.808 Script: Authenticating...
+. 2023-09-13 13:55:42.809 Host key matches configured key fingerprint
+. 2023-09-13 13:55:42.809 Initialised AES-256 SDCTR (AES-NI accelerated) [aes256-ctr] outbound encryption
+. 2023-09-13 13:55:42.809 Initialised HMAC-SHA-256 outbound MAC algorithm
+. 2023-09-13 13:55:42.809 Initialised AES-256 SDCTR (AES-NI accelerated) [aes256-ctr] inbound encryption
+. 2023-09-13 13:55:42.809 Initialised HMAC-SHA-256 inbound MAC algorithm
+! 2023-09-13 13:55:42.906 Using username "CARLS".
+< 2023-09-13 13:55:42.907 Script: Using username "CARLS".
+. 2023-09-13 13:55:43.005 Server offered these authentication methods: password,publickey,keyboard-interactive
+. 2023-09-13 13:55:43.005 Attempting keyboard-interactive authentication
+. 2023-09-13 13:55:43.105 Prompt (keyboard interactive, "SSH server: password", "Enter password for CARLS", "Password:")
+. 2023-09-13 13:55:43.105 Using stored password.
+< 2023-09-13 13:55:43.105 Script: Authenticating with pre-entered password.
+. 2023-09-13 13:55:43.220 Access granted
+. 2023-09-13 13:55:43.220 Opening main session channel
+. 2023-09-13 13:55:43.325 Opened main channel
+. 2023-09-13 13:55:43.432 Started a shell/command
+< 2023-09-13 13:55:43.432 Script: Authenticated.
+. 2023-09-13 13:55:43.432 --------------------------------------------------------------------------
+. 2023-09-13 13:55:43.432 Using SFTP protocol.
+. 2023-09-13 13:55:43.432 Doing startup conversation with host.
+< 2023-09-13 13:55:43.432 Script: Starting the session...
+> 2023-09-13 13:55:43.433 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2023-09-13 13:55:43.545 Type: SSH_FXP_VERSION, Size: 94, Number: -1
+. 2023-09-13 13:55:43.545 SFTP version 4 negotiated.
+. 2023-09-13 13:55:43.545 Server requests EOL sequence "\n".
+. 2023-09-13 13:55:43.545 Server software: Maverick SSHD 1.7.34 (0) by JADAPTIVE Limited
+> 2023-09-13 13:55:43.545 Type: SSH_FXP_EXTENDED, Size: 63, Number: 200
+< 2023-09-13 13:55:43.642 Type: SSH_FXP_STATUS, Size: 64, Number: 200
+. 2023-09-13 13:55:43.642 We will use UTF-8 strings as it is mandatory with SFTP version 4 and newer
+. 2023-09-13 13:55:43.642 Getting current directory name.
+. 2023-09-13 13:55:43.642 Getting real path for '.'
+> 2023-09-13 13:55:43.642 Type: SSH_FXP_REALPATH, Size: 10, Number: 272
+< 2023-09-13 13:55:43.745 Type: SSH_FXP_NAME, Size: 47, Number: 272
+. 2023-09-13 13:55:43.745 Real path is '/'
+. 2023-09-13 13:55:43.745 Startup conversation with host finished.
+< 2023-09-13 13:55:43.745 Script: Session started.
+< 2023-09-13 13:55:43.745 Script: Active session: [1] CARLS@sftp.storedvalue.com
+> 2023-09-13 13:55:43.985 Script: pwd
+< 2023-09-13 13:55:43.986 Script: /
+> 2023-09-13 13:55:46.813 Script: ls -- "/"
+. 2023-09-13 13:55:46.814 Listing directory "/".
+> 2023-09-13 13:55:46.814 Type: SSH_FXP_OPENDIR, Size: 10, Number: 523
+< 2023-09-13 13:55:46.912 Type: SSH_FXP_HANDLE, Size: 45, Number: 523
+> 2023-09-13 13:55:46.914 Type: SSH_FXP_READDIR, Size: 45, Number: 780
+< 2023-09-13 13:55:47.022 Type: SSH_FXP_NAME, Size: 153, Number: 780
+> 2023-09-13 13:55:47.022 Type: SSH_FXP_READDIR, Size: 45, Number: 1036
+< 2023-09-13 13:55:47.143 Type: SSH_FXP_STATUS, Size: 40, Number: 1036
+< 2023-09-13 13:55:47.143 Status code: 1
+> 2023-09-13 13:55:47.143 Type: SSH_FXP_CLOSE, Size: 45, Number: 1284
+. 2023-09-13 13:55:47.143 ECHCKEPR;-;300;2023-09-07T09:39:20.000Z;4;"" [0];"" [0];rwxrwxrwx;1
+. 2023-09-13 13:55:47.143 CKEPR132;-;1263;2023-09-13T10:22:45.000Z;4;"" [0];"" [0];rwxrwxrwx;1
+. 2023-09-13 13:55:47.143 CARLS132.20230913;-;114846;2023-09-13T12:01:07.000Z;4;"" [0];"" [0];rwxrwxrwx;1
+. 2023-09-13 13:55:47.143 ..;D;0;1899-12-30T06:00:00.000Z;0;"" [0];"" [0];---------;0
+< 2023-09-13 13:55:47.144 Script: -rwxrwxrwx   0                         300 Sep  7  4:39:20 2023 ECHCKEPR
+< 2023-09-13 13:55:47.144 Script: -rwxrwxrwx   0                        1263 Sep 13  5:22:45 2023 CKEPR132
+< 2023-09-13 13:55:47.145 Script: -rwxrwxrwx   0                      114846 Sep 13  7:01:07 2023 CARLS132.20230913
+< 2023-09-13 13:55:47.145 Script: D---------   0                           0              ..
+> 2023-09-13 13:55:50.493 Script: get  -nopermissions -preservetime -transfer="ascii" -onlyfile -- "/CARLS132.20230913" "C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\bin\Debug\Work\"
+. 2023-09-13 13:55:50.493 Listing file "/CARLS132.20230913".
+> 2023-09-13 13:55:50.493 Type: SSH_FXP_LSTAT, Size: 31, Number: 1543
+< 2023-09-13 13:55:50.593 Type: SSH_FXP_STATUS, Size: 40, Number: 1284
+. 2023-09-13 13:55:50.593 Discarding reserved response
+< 2023-09-13 13:55:50.694 Type: SSH_FXP_ATTRS, Size: 38, Number: 1543
+. 2023-09-13 13:55:50.694 CARLS132.20230913;-;114846;2023-09-13T12:01:07.000Z;4;"" [0];"" [0];rwxrwxrwx;1
+. 2023-09-13 13:55:50.695 Copying 1 files/directories to local directory "C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\bin\Debug\Work\" - total size: 114,846
+. 2023-09-13 13:55:50.695   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2023-09-13 13:55:50.695   TM: A; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2023-09-13 13:55:50.695   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2023-09-13 13:55:50.696 File: '/CARLS132.20230913' [2023-09-13T12:01:07.000Z] [114846]
+. 2023-09-13 13:55:50.696 Copying "/CARLS132.20230913" to local directory started.
+. 2023-09-13 13:55:50.696 Ascii transfer mode selected.
+. 2023-09-13 13:55:50.696 Opening remote file.
+> 2023-09-13 13:55:50.696 Type: SSH_FXP_OPEN, Size: 36, Number: 1795
+< 2023-09-13 13:55:50.792 Type: SSH_FXP_HANDLE, Size: 45, Number: 1795
+> 2023-09-13 13:55:50.792 Type: SSH_FXP_FSTAT, Size: 49, Number: 2056
+< 2023-09-13 13:55:50.895 Type: SSH_FXP_ATTRS, Size: 38, Number: 2056
+> 2023-09-13 13:55:50.895 Type: SSH_FXP_READ, Size: 57, Number: 2309
+. 2023-09-13 13:55:51.093 Skipped 3 SSH_FXP_READ packets
+< 2023-09-13 13:55:51.093 Type: SSH_FXP_DATA, Size: 32777, Number: 2309
+< 2023-09-13 13:55:51.837 Status code: 1
+. 2023-09-13 13:55:51.837 Skipped 4 SSH_FXP_READ, 3 SSH_FXP_DATA and 1 SSH_FXP_STATUS packets
+> 2023-09-13 13:55:51.837 Type: SSH_FXP_CLOSE, Size: 45, Number: 4356
+. 2023-09-13 13:55:51.942 Preserving timestamp [2023-09-13T12:01:07.000Z]
+. 2023-09-13 13:55:51.942 Transfer done: '/CARLS132.20230913' => 'C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\bin\Debug\Work\CARLS132.20230913' [114846]
+. 2023-09-13 13:55:51.943 Copying finished: Transferred: 114,846, Elapsed: 0:00:01, CPS: 92,024/s
+> 2023-09-13 13:55:55.550 Script: ls -- "/"
+. 2023-09-13 13:55:55.550 Listing directory "/".
+. 2023-09-13 13:55:55.551 Skipped 3 SSH_FXP_STATUS packets
+> 2023-09-13 13:55:55.551 Type: SSH_FXP_OPENDIR, Size: 10, Number: 4619
+< 2023-09-13 13:55:55.551 Type: SSH_FXP_STATUS, Size: 40, Number: 4356
+. 2023-09-13 13:55:55.551 Discarding reserved response
+< 2023-09-13 13:55:55.657 Type: SSH_FXP_HANDLE, Size: 45, Number: 4619
+> 2023-09-13 13:55:55.657 Type: SSH_FXP_READDIR, Size: 45, Number: 4876
+< 2023-09-13 13:55:55.763 Type: SSH_FXP_NAME, Size: 99, Number: 4876
+> 2023-09-13 13:55:55.763 Type: SSH_FXP_READDIR, Size: 45, Number: 5132
+< 2023-09-13 13:55:55.872 Type: SSH_FXP_STATUS, Size: 40, Number: 5132
+< 2023-09-13 13:55:55.872 Status code: 1
+> 2023-09-13 13:55:55.872 Type: SSH_FXP_CLOSE, Size: 45, Number: 5380
+. 2023-09-13 13:55:55.872 ECHCKEPR;-;300;2023-09-07T09:39:20.000Z;4;"" [0];"" [0];rwxrwxrwx;1
+. 2023-09-13 13:55:55.872 CKEPR132;-;1263;2023-09-13T10:22:45.000Z;4;"" [0];"" [0];rwxrwxrwx;1
+. 2023-09-13 13:55:55.872 ..;D;0;1899-12-30T06:00:00.000Z;0;"" [0];"" [0];---------;0
+< 2023-09-13 13:55:55.872 Script: -rwxrwxrwx   0                         300 Sep  7  4:39:20 2023 ECHCKEPR
+< 2023-09-13 13:55:55.872 Script: -rwxrwxrwx   0                        1263 Sep 13  5:22:45 2023 CKEPR132
+< 2023-09-13 13:55:55.872 Script: D---------   0                           0              ..
+> 2023-09-13 13:55:59.047 Script: get  -nopermissions -preservetime -transfer="ascii" -onlyfile -- "/CKEPR132" "C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\bin\Debug\Work\"
+. 2023-09-13 13:55:59.047 Listing file "/CKEPR132".
+> 2023-09-13 13:55:59.047 Type: SSH_FXP_LSTAT, Size: 22, Number: 5639
+< 2023-09-13 13:55:59.154 Type: SSH_FXP_STATUS, Size: 40, Number: 5380
+. 2023-09-13 13:55:59.154 Discarding reserved response
+< 2023-09-13 13:55:59.245 Type: SSH_FXP_ATTRS, Size: 38, Number: 5639
+. 2023-09-13 13:55:59.245 CKEPR132;-;1263;2023-09-13T10:22:45.000Z;4;"" [0];"" [0];rwxrwxrwx;1
+. 2023-09-13 13:55:59.245 Copying 1 files/directories to local directory "C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\bin\Debug\Work\" - total size: 1,263
+. 2023-09-13 13:55:59.245   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2023-09-13 13:55:59.245   TM: A; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2023-09-13 13:55:59.245   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2023-09-13 13:55:59.245 File: '/CKEPR132' [2023-09-13T10:22:45.000Z] [1263]
+. 2023-09-13 13:55:59.247 Copying "/CKEPR132" to local directory started.
+. 2023-09-13 13:55:59.247 Ascii transfer mode selected.
+. 2023-09-13 13:55:59.247 Opening remote file.
+> 2023-09-13 13:55:59.247 Type: SSH_FXP_OPEN, Size: 27, Number: 5891
+< 2023-09-13 13:55:59.343 Type: SSH_FXP_HANDLE, Size: 45, Number: 5891
+> 2023-09-13 13:55:59.343 Type: SSH_FXP_FSTAT, Size: 49, Number: 6152
+< 2023-09-13 13:55:59.442 Type: SSH_FXP_ATTRS, Size: 38, Number: 6152
+> 2023-09-13 13:55:59.443 Type: SSH_FXP_READ, Size: 57, Number: 6405
+< 2023-09-13 13:55:59.562 Type: SSH_FXP_DATA, Size: 1272, Number: 6405
+< 2023-09-13 13:55:59.664 Status code: 1
+. 2023-09-13 13:55:59.664 Skipped 1 SSH_FXP_READ and 1 SSH_FXP_STATUS packets
+> 2023-09-13 13:55:59.664 Type: SSH_FXP_CLOSE, Size: 45, Number: 6916
+. 2023-09-13 13:55:59.664 Preserving timestamp [2023-09-13T10:22:45.000Z]
+. 2023-09-13 13:55:59.664 Transfer done: '/CKEPR132' => 'C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\bin\Debug\Work\CKEPR132' [1263]
+. 2023-09-13 13:55:59.664 Copying finished: Transferred: 1,263, Elapsed: 0:00:00, CPS: 3,014/s
+. 2023-09-13 13:56:10.431 --------------------------------------------------------------------------
+. 2023-09-13 13:56:10.431 WinSCP Version 6.1.1 (Build 13736 2023-06-21) (OS 10.0.19044 – Windows 10 Enterprise)
+. 2023-09-13 13:56:10.431 Configuration: nul
+. 2023-09-13 13:56:10.431 Log level: Normal
+. 2023-09-13 13:56:10.431 Local account: CKRCORP\mbacon
+. 2023-09-13 13:56:10.431 Working directory: C:\Program Files (x86)\WinSCP
+. 2023-09-13 13:56:10.431 Process ID: 39552
+. 2023-09-13 13:56:10.473 Ancestor processes: SvsFileProcessor, devenv, explorer, ...
+. 2023-09-13 13:56:10.474 Command-line: "C:\Program Files (x86)\WinSCP\winscp.exe" /xmllog="C:\Users\mbacon\AppData\Local\Temp\wscp52BC.02AEB54D.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /stdout /stdin /dotnet=6.1.1  /ini=nul /log="C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\bin\Debug\SessionLogs\SFTPSessions.20230913.log"  /console /consoleinstance=_21180_2383799_244
+. 2023-09-13 13:56:10.474 Time zone: Current: GMT-5, Standard: GMT-6 (Central Standard Time), DST: GMT-5 (Central Daylight Time), DST Start: 3/12/2023, DST End: 11/5/2023
+. 2023-09-13 13:56:10.474 Login time: Wednesday, September 13, 2023 1:56:10 PM
+. 2023-09-13 13:56:10.474 --------------------------------------------------------------------------
+. 2023-09-13 13:56:10.474 Script: Retrospectively logging previous script records:
+> 2023-09-13 13:56:10.474 Script: option batch on
+< 2023-09-13 13:56:10.474 Script: batch           on        
+< 2023-09-13 13:56:10.474 Script: reconnecttime   120       
+> 2023-09-13 13:56:10.474 Script: option confirm off
+< 2023-09-13 13:56:10.474 Script: confirm         off       
+> 2023-09-13 13:56:10.474 Script: option reconnecttime 120
+< 2023-09-13 13:56:10.474 Script: reconnecttime   120       
+> 2023-09-13 13:56:10.474 Script: open sftp://HARDE:***@sftp.storedvalue.com:22 -hostkey="ssh-rsa 2048 e5:b7:c7:6c:75:cc:eb:75:ff:88:29:e7:d1:92:14:be" -timeout=15
+. 2023-09-13 13:56:10.474 --------------------------------------------------------------------------
+. 2023-09-13 13:56:10.474 Session name: HARDE@sftp.storedvalue.com (Ad-Hoc site)
+. 2023-09-13 13:56:10.474 Host name: sftp.storedvalue.com (Port: 22)
+. 2023-09-13 13:56:10.474 User name: HARDE (Password: Yes, Key file: No, Passphrase: No)
+. 2023-09-13 13:56:10.474 Tunnel: No
+. 2023-09-13 13:56:10.474 Transfer Protocol: SFTP
+. 2023-09-13 13:56:10.474 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2023-09-13 13:56:10.474 Disable Nagle: No
+. 2023-09-13 13:56:10.474 Proxy: None
+. 2023-09-13 13:56:10.474 Send buffer: 262144
+. 2023-09-13 13:56:10.474 Compression: No
+. 2023-09-13 13:56:10.474 Bypass authentication: No
+. 2023-09-13 13:56:10.474 Try agent: Yes; Agent forwarding: No; KI: Yes; GSSAPI: Yes
+. 2023-09-13 13:56:10.474 GSSAPI: KEX: No; Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2023-09-13 13:56:10.474 Ciphers: aes,chacha20,aesgcm,3des,WARN,des,blowfish,arcfour; Ssh2DES: No
+. 2023-09-13 13:56:10.474 KEX: ntru-curve25519,ecdh,dh-gex-sha1,dh-group18-sha512,dh-group17-sha512,dh-group16-sha512,dh-group15-sha512,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2023-09-13 13:56:10.474 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2023-09-13 13:56:10.474 Simple channel: Yes
+. 2023-09-13 13:56:10.474 Return code variable: Autodetect; Lookup user groups: Auto
+. 2023-09-13 13:56:10.474 Shell: default
+. 2023-09-13 13:56:10.474 EOL: LF, UTF: Auto
+. 2023-09-13 13:56:10.474 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2023-09-13 13:56:10.474 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2023-09-13 13:56:10.474 SFTP Bugs: Auto,Auto
+. 2023-09-13 13:56:10.474 SFTP Server: default
+. 2023-09-13 13:56:10.474 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2023-09-13 13:56:10.474 Cache directory changes: Yes, Permanent: Yes
+. 2023-09-13 13:56:10.474 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2023-09-13 13:56:10.474 DST mode: Unix
+. 2023-09-13 13:56:10.474 --------------------------------------------------------------------------
+< 2023-09-13 13:56:10.474 Script: Searching for host...
+. 2023-09-13 13:56:10.475 Looking up host "sftp.storedvalue.com" for SSH connection
+. 2023-09-13 13:56:10.479 Connecting to 65.82.130.38 port 22
+. 2023-09-13 13:56:10.570 Connected to 65.82.130.38
+< 2023-09-13 13:56:10.570 Script: Connecting to host...
+. 2023-09-13 13:56:10.570 We claim version: SSH-2.0-WinSCP_release_6.1.1
+. 2023-09-13 13:56:10.570 Connected to 65.82.130.38
+. 2023-09-13 13:56:10.662 Remote version: SSH-2.0-SVS_SFTP_SERVER
+. 2023-09-13 13:56:10.662 Using SSH protocol version 2
+. 2023-09-13 13:56:10.663 Have a known host key of type rsa2
+. 2023-09-13 13:56:10.669 Doing ECDH key exchange with curve nistp256, using hash SHA-256
+. 2023-09-13 13:56:10.891 Server also has ssh-dss host key, but we don't know it
+. 2023-09-13 13:56:10.892 Host key fingerprint is:
+. 2023-09-13 13:56:10.892 ssh-rsa 2048 SHA256:/iAnSXBQ6BbhPgr5msERriG+R06iDUbxw+82K1ioWQ4
+< 2023-09-13 13:56:10.892 Script: Authenticating...
+. 2023-09-13 13:56:10.892 Host key matches configured key fingerprint
+. 2023-09-13 13:56:10.892 Initialised AES-256 SDCTR (AES-NI accelerated) [aes256-ctr] outbound encryption
+. 2023-09-13 13:56:10.892 Initialised HMAC-SHA-256 outbound MAC algorithm
+. 2023-09-13 13:56:10.892 Initialised AES-256 SDCTR (AES-NI accelerated) [aes256-ctr] inbound encryption
+. 2023-09-13 13:56:10.892 Initialised HMAC-SHA-256 inbound MAC algorithm
+! 2023-09-13 13:56:10.989 Using username "HARDE".
+< 2023-09-13 13:56:10.989 Script: Using username "HARDE".
+. 2023-09-13 13:56:11.089 Server offered these authentication methods: password,publickey,keyboard-interactive
+. 2023-09-13 13:56:11.089 Attempting keyboard-interactive authentication
+. 2023-09-13 13:56:11.188 Prompt (keyboard interactive, "SSH server: password", "Enter password for HARDE", "Password:")
+. 2023-09-13 13:56:11.188 Using stored password.
+< 2023-09-13 13:56:11.188 Script: Authenticating with pre-entered password.
+. 2023-09-13 13:56:11.314 Access granted
+. 2023-09-13 13:56:11.314 Opening main session channel
+. 2023-09-13 13:56:11.412 Opened main channel
+. 2023-09-13 13:56:11.517 Started a shell/command
+< 2023-09-13 13:56:11.517 Script: Authenticated.
+. 2023-09-13 13:56:11.517 --------------------------------------------------------------------------
+. 2023-09-13 13:56:11.517 Using SFTP protocol.
+. 2023-09-13 13:56:11.517 Doing startup conversation with host.
+< 2023-09-13 13:56:11.517 Script: Starting the session...
+> 2023-09-13 13:56:11.517 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2023-09-13 13:56:11.613 Type: SSH_FXP_VERSION, Size: 94, Number: -1
+. 2023-09-13 13:56:11.614 SFTP version 4 negotiated.
+. 2023-09-13 13:56:11.614 Server requests EOL sequence "\n".
+. 2023-09-13 13:56:11.614 Server software: Maverick SSHD 1.7.34 (0) by JADAPTIVE Limited
+> 2023-09-13 13:56:11.614 Type: SSH_FXP_EXTENDED, Size: 63, Number: 200
+< 2023-09-13 13:56:11.712 Type: SSH_FXP_STATUS, Size: 64, Number: 200
+. 2023-09-13 13:56:11.712 We will use UTF-8 strings as it is mandatory with SFTP version 4 and newer
+. 2023-09-13 13:56:11.712 Getting current directory name.
+. 2023-09-13 13:56:11.712 Getting real path for '.'
+> 2023-09-13 13:56:11.712 Type: SSH_FXP_REALPATH, Size: 10, Number: 272
+< 2023-09-13 13:56:11.813 Type: SSH_FXP_NAME, Size: 47, Number: 272
+. 2023-09-13 13:56:11.813 Real path is '/'
+. 2023-09-13 13:56:11.813 Startup conversation with host finished.
+< 2023-09-13 13:56:11.813 Script: Session started.
+< 2023-09-13 13:56:11.814 Script: Active session: [1] HARDE@sftp.storedvalue.com
+> 2023-09-13 13:56:12.051 Script: pwd
+< 2023-09-13 13:56:12.051 Script: /
+> 2023-09-13 13:56:14.446 Script: ls -- "/"
+. 2023-09-13 13:56:14.446 Listing directory "/".
+> 2023-09-13 13:56:14.446 Type: SSH_FXP_OPENDIR, Size: 10, Number: 523
+< 2023-09-13 13:56:14.542 Type: SSH_FXP_HANDLE, Size: 45, Number: 523
+> 2023-09-13 13:56:14.542 Type: SSH_FXP_READDIR, Size: 45, Number: 780
+< 2023-09-13 13:56:14.633 Type: SSH_FXP_NAME, Size: 63, Number: 780
+> 2023-09-13 13:56:14.633 Type: SSH_FXP_READDIR, Size: 45, Number: 1036
+< 2023-09-13 13:56:14.727 Type: SSH_FXP_STATUS, Size: 40, Number: 1036
+< 2023-09-13 13:56:14.727 Status code: 1
+> 2023-09-13 13:56:14.727 Type: SSH_FXP_CLOSE, Size: 45, Number: 1284
+. 2023-09-13 13:56:14.727 HARDE132.20230913;-;221592;2023-09-13T12:32:36.000Z;4;"" [0];"" [0];rwxrwxrwx;1
+. 2023-09-13 13:56:14.728 ..;D;0;1899-12-30T06:00:00.000Z;0;"" [0];"" [0];---------;0
+< 2023-09-13 13:56:14.728 Script: -rwxrwxrwx   0                      221592 Sep 13  7:32:36 2023 HARDE132.20230913
+< 2023-09-13 13:56:14.729 Script: D---------   0                           0              ..
+> 2023-09-13 13:56:16.936 Script: get  -nopermissions -preservetime -transfer="ascii" -onlyfile -- "/HARDE132.20230913" "C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\bin\Debug\Work\"
+. 2023-09-13 13:56:16.936 Listing file "/HARDE132.20230913".
+> 2023-09-13 13:56:16.936 Type: SSH_FXP_LSTAT, Size: 31, Number: 1543
+< 2023-09-13 13:56:17.033 Type: SSH_FXP_STATUS, Size: 40, Number: 1284
+. 2023-09-13 13:56:17.033 Discarding reserved response
+< 2023-09-13 13:56:17.122 Type: SSH_FXP_ATTRS, Size: 38, Number: 1543
+. 2023-09-13 13:56:17.122 HARDE132.20230913;-;221592;2023-09-13T12:32:36.000Z;4;"" [0];"" [0];rwxrwxrwx;1
+. 2023-09-13 13:56:17.122 Copying 1 files/directories to local directory "C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\bin\Debug\Work\" - total size: 221,592
+. 2023-09-13 13:56:17.122   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2023-09-13 13:56:17.122   TM: A; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2023-09-13 13:56:17.122   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2023-09-13 13:56:17.122 File: '/HARDE132.20230913' [2023-09-13T12:32:36.000Z] [221592]
+. 2023-09-13 13:56:17.122 Copying "/HARDE132.20230913" to local directory started.
+. 2023-09-13 13:56:17.122 Ascii transfer mode selected.
+. 2023-09-13 13:56:17.122 Opening remote file.
+> 2023-09-13 13:56:17.122 Type: SSH_FXP_OPEN, Size: 36, Number: 1795
+< 2023-09-13 13:56:17.210 Type: SSH_FXP_HANDLE, Size: 45, Number: 1795
+> 2023-09-13 13:56:17.210 Type: SSH_FXP_FSTAT, Size: 49, Number: 2056
+< 2023-09-13 13:56:17.302 Type: SSH_FXP_ATTRS, Size: 38, Number: 2056
+> 2023-09-13 13:56:17.304 Type: SSH_FXP_READ, Size: 57, Number: 2309
+. 2023-09-13 13:56:17.524 Skipped 6 SSH_FXP_READ packets
+< 2023-09-13 13:56:17.524 Type: SSH_FXP_DATA, Size: 32777, Number: 2309
+< 2023-09-13 13:56:18.150 Status code: 1
+. 2023-09-13 13:56:18.150 Skipped 7 SSH_FXP_READ, 6 SSH_FXP_DATA and 1 SSH_FXP_STATUS packets
+> 2023-09-13 13:56:18.150 Type: SSH_FXP_CLOSE, Size: 45, Number: 5892
+. 2023-09-13 13:56:18.257 Preserving timestamp [2023-09-13T12:32:36.000Z]
+. 2023-09-13 13:56:18.258 Transfer done: '/HARDE132.20230913' => 'C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\bin\Debug\Work\HARDE132.20230913' [221592]
+. 2023-09-13 13:56:18.258 Copying finished: Transferred: 221,592, Elapsed: 0:00:01, CPS: 195,063/s

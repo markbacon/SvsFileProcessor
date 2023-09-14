@@ -1,0 +1,13 @@
+C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\obj\Debug\SvsFileProcessor.frmResponse.resources
+C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\obj\Debug\SvsFileProcessor.Properties.Resources.resources
+C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\obj\Debug\SvsFileProcessor.csproj.GenerateResource.cache
+C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\obj\Debug\SvsFileProcessor.csproj.CoreCompileInputs.cache
+C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\bin\Debug\SvsFileProcessor.exe.config
+C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\bin\Debug\SvsFileProcessor.exe
+C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\bin\Debug\SvsFileProcessor.pdb
+C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\bin\Debug\WinSCPnet.dll
+C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\obj\Debug\SvsFileProcessor.csproj.CopyComplete
+C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\obj\Debug\SvsFileProcessor.exe
+C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\obj\Debug\SvsFileProcessor.pdb
+C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\bin\Debug\Ionic.Zip.dll
+C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\obj\Debug\SvsFileProcessor.csproj.AssemblyReference.cache

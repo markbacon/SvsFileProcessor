@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SearchPatterns>
+  <PatternGroup FileType="Daily">
+    <SearchPattern Concept="CarlsJr" Value="CARLS132*" AddDateToFileName="false" />
+    <SearchPattern Concept="CarlsJr" Value="CKEPR132" AddDateToFileName="true" />
+    <SearchPattern Concept="Hardees" Value="HARDE132*"  AddDateToFileName="false" /> />
+  </PatternGroup>
+  <PatternGroup FileType="Period" >
+    <SearchPattern Concept="CarlsJr" Value="NEW_ENTITY_Liability_Aging.csv" /> />
+    <SearchPattern Concept="CarlsJr" Value="OLD_ENTITY_Liability_Aging.csv" /> />
+    <SearchPattern Concept="Hardees" Value="NEW_ENTITY_Liability_Aging.csv" /> />
+    <SearchPattern Concept="Hardees" Value="OLD_ENTITY_Liability_Aging.csv" /> />
+  </PatternGroup>
+  <PatternGroup FileType="Weekly" >
+    <SearchPattern Concept="CarlsJr" Value="CARLS132*" />
+    <SearchPattern Concept="CarlsJr" Value="CARLS_OLD_ENTITY_STL132EXT.csv" />
+    <SearchPattern Concept="CarlsJr" Value="CKEGC_NEW_ENTITY_STL132EXT.csv" />
+    <SearchPattern Concept="CarlsJr" Value="CKEGC_OLD_ENTITY_STL132EXT.csv" />
+    <SearchPattern Concept="CarlsJr" Value="CKEPR_NEW_ENTITY_STL132EXT.csv" />
+    <SearchPattern Concept="CarlsJr" Value="CKEPR_OLD_ENTITY_STL132EXT.csv" />
+    <SearchPattern Concept="CarlsJr" Value="HARDE_NEW_ENTITY_STL132EXT.csv" />
+    <SearchPattern Concept="CarlsJr" Value="HARDE_OLD_ENTITY_STL132EXT.csv" />
+  </PatternGroup>
+</SearchPatterns>

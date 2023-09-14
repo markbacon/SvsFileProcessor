@@ -1,0 +1,27 @@
+//--------------------------------------------------------------------------------------------------------------
+//-- Start Application. Date/Time: Thursday, September 7, 2023  12:31:36 PM
+//--------------------------------------------------------------------------------------------------------------
+2023-09-07 12:31:37.609	:Controller.Run starting...
+2023-09-07 12:31:37.620	:ProcessWeeklyFiles starting...
+2023-09-07 12:31:37.628	:ProcessWeeklyFiles starting...
+2023-09-07 12:31:41.029	:Checking for files using search pattern: CARLS132*
+2023-09-07 12:31:41.494	:0 file(s) found.
+2023-09-07 12:31:41.498	:Checking for files using search pattern: CARLS_OLD_ENTITY_STL132EXT.csv
+2023-09-07 12:31:41.932	:0 file(s) found.
+2023-09-07 12:31:41.940	:Checking for files using search pattern: CKEGC_NEW_ENTITY_STL132EXT.csv
+2023-09-07 12:31:42.382	:0 file(s) found.
+2023-09-07 12:31:42.386	:Checking for files using search pattern: CKEGC_OLD_ENTITY_STL132EXT.csv
+2023-09-07 12:31:42.862	:0 file(s) found.
+2023-09-07 12:31:42.872	:Checking for files using search pattern: CKEPR_NEW_ENTITY_STL132EXT.csv
+2023-09-07 12:31:43.321	:0 file(s) found.
+2023-09-07 12:31:43.332	:Checking for files using search pattern: CKEPR_OLD_ENTITY_STL132EXT.csv
+2023-09-07 12:31:43.772	:0 file(s) found.
+2023-09-07 12:31:43.779	:Checking for files using search pattern: HARDE_NEW_ENTITY_STL132EXT.csv
+2023-09-07 12:31:44.224	:0 file(s) found.
+2023-09-07 12:31:44.234	:Checking for files using search pattern: HARDE_OLD_ENTITY_STL132EXT.csv
+2023-09-07 12:31:44.706	:0 file(s) found.
+2023-09-07 12:31:44.714	:ProcessWeeklyFiles has completed.  Elapsed time: 00:00:07.0849169
+2023-09-07 12:31:48.407	:ProcessWeeklyFiles starting...
+2023-09-07 12:31:51.237	:ProcessWeeklyFiles has completed.  Elapsed time: 00:00:02.8303447
+2023-09-07 12:31:52.224	:ProcessWeeklyFiles has completed.  Elapsed time: 00:00:14.6053197
+2023-09-07 12:31:52.234	:Controller.Run has completed.  Elapsed time: 00:00:14.6250605

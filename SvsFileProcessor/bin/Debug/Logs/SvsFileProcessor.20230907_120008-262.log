@@ -1,0 +1,18 @@
+//--------------------------------------------------------------------------------------------------------------
+//-- Start Application. Date/Time: Thursday, September 7, 2023  12:00:08 PM
+//--------------------------------------------------------------------------------------------------------------
+2023-09-07 12:00:24.132	:Controller.Run starting...
+2023-09-07 12:00:27.884	:ProcessDailyFiles starting...
+2023-09-07 12:00:40.125	:ProcessWeeklyFiles starting...
+2023-09-07 12:00:46.296	:Checking for files using search pattern: CARLS132*
+2023-09-07 12:00:48.185	:0 file(s) found.
+2023-09-07 12:00:50.505	:Checking for files using search pattern: CKEPR132
+2023-09-07 12:00:51.576	:1 file(s) found.
+2023-09-07 12:01:12.023	:SFTP file transfer succeeded for: CKEPR132
+2023-09-07 12:01:16.302	:ProcessWeeklyFiles has completed.  Elapsed time: 00:00:36.4849450
+2023-09-07 12:01:24.719	:ProcessWeeklyFiles starting...
+2023-09-07 12:01:26.524	:Checking for files using search pattern: HARDE132*
+2023-09-07 12:01:26.988	:0 file(s) found.
+2023-09-07 12:01:26.993	:ProcessWeeklyFiles has completed.  Elapsed time: 00:00:02.2743831
+2023-09-07 12:01:53.352	:ProcessDailyFiles has completed.  Elapsed time: 00:01:25.8427626
+2023-09-07 12:02:01.258	:Controller.Run has completed.  Elapsed time: 00:01:37.3899975
