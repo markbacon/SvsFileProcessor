@@ -13,7 +13,6 @@ namespace SvsFileProcessor {
 		static void Main(string[] args) {
 
 			try {
-				Logger.StartLogSession();
 
 				Application.EnableVisualStyles();
 				Application.SetCompatibleTextRenderingDefault(false);
@@ -41,7 +40,6 @@ namespace SvsFileProcessor {
 					}
 				}
 			}
-
 		}
 		//---------------------------------------------------------------------------------------------------
 		//-- Private

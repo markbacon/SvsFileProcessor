@@ -73,5 +73,16 @@ namespace SvsFileProcessor {
 
 			}
 		}
+		//---------------------------------------------------------------------------------------------------------
+		//-- Private
+		//---------------------------------------------------------------------------------------------------------
+		private static string SemFilePath {
+
+			get {
+				string fileName = Path.GetFileNameWithoutExtension(System.Reflection.Assembly.GetExecutingAssembly().GetName().Name) + ".sem";
+
+				return Path.Combine(AppDomain.CurrentDomain.BaseDirectory, fileName);
+			}
+		}
 	}
 }

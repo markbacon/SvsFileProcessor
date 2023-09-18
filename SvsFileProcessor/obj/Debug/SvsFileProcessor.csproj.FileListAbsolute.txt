@@ -10,4 +10,3 @@ C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\obj\Debug\SvsFile
 C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\obj\Debug\SvsFileProcessor.exe
 C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\obj\Debug\SvsFileProcessor.pdb
 C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\bin\Debug\Ionic.Zip.dll
-C:\Users\mbacon\source\repos\SvsFileProcessor\SvsFileProcessor\obj\Debug\SvsFileProcessor.csproj.AssemblyReference.cache

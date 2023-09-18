@@ -14,6 +14,7 @@ namespace SvsFileProcessor {
 		public FileProcessor() {
 
 			if (!Directory.Exists(AppSettings.WorkingDirectoryPath)) {
+				Logger.Write("Creating directory: " + AppSettings.WorkingDirectoryPath);
 				Directory.CreateDirectory(AppSettings.WorkingDirectoryPath);
 			}
 
@@ -22,7 +23,6 @@ namespace SvsFileProcessor {
 		public void ProcessDailyFiles() {
 
 			CkeSftp ckeSftp = new CkeSftp();
-
 			try {
 				Stopwatch sw1 = new Stopwatch();
 				sw1.Start();
